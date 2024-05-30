@@ -6,13 +6,13 @@ import Footer from "@/components/Footer";
 import Clients from "@/components/Clients";
 
 import Experience from "@/components/Experience";
-import RecentProjects from "@/components/RecentProjects";
+
 
 import { Form } from "@/components/Form";
 import FAQ from "@/components/Faq";
 import Ceo from "@/components/Ceo";
 import Banner from "@/components/Banner";
-import { StickyScrollRevealDemo } from "@/components/StickyScroll";
+import { TabsDemo } from "@/components/RecentProjects";
 
 
 const Home = () => {
@@ -26,7 +26,10 @@ const Home = () => {
       <div className="max-w-7xl bg-black w-screen">
         <Grid />
       </div>
-      <RecentProjects />
+      <div className="bg-white max-w-7xl min-h-screen text-black w-screen h-90">
+        <h1 className="heading mt-10">Our Success Stories</h1>
+        <TabsDemo />
+      </div>
       <div className="max-w-7xl min-h-screen w-screen">
         <Experience />
       </div>

@@ -27,8 +27,17 @@ const Home = () => {
         <Grid />
       </div>
       <div className="bg-white max-w-7xl min-h-screen text-black w-screen h-90">
-        <h1 className="heading mt-10">Our Success Stories</h1>
-        <TabsDemo />
+          <h1 className="heading mt-20">Our Success Stories</h1>
+          <p className="text-center text-xl text-black font-sf-pro p-20 mx-auto">
+            At Eensell Agency, we transform businesses by converting visitors into
+            loyal customers. Through innovative web development, captivating
+            design, strategic branding, and effective social media campaigns, we
+            drive sales and boost engagement. Our tailored solutions ensure your
+            business not only stands out but thrives in a competitive market.
+            Partner with us to elevate your success and achieve sustainable
+            growth.
+          </p>
+          <TabsDemo />
       </div>
       <div className="max-w-7xl min-h-screen w-screen">
         <Experience />
